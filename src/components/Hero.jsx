@@ -1,5 +1,6 @@
 import React from "react";
 import profilePicture from "../images/profile.jpg";
+import { Link } from "react-scroll";
 const Hero = () => {
   return (
     <div className="section">
@@ -9,9 +10,15 @@ const Hero = () => {
         </figure>
         <h2 className="">
           Hello I'm
-          <a href="#about" className="link-underline mx-2">
+          <Link
+            smooth={true}
+            duration={500}
+            to="about"
+            className="link-underline mx-2"
+            activeClass="active"
+          >
             Meer
-          </a>
+          </Link>
           , A Front End Developer.
         </h2>
         <h2 className="">I love HTML, CSS especially javaScript</h2>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const About = () => {
   return (
@@ -14,19 +15,32 @@ const About = () => {
         <p className="subtitle is-4">
           Strong in object-oriented analysis and design and experienced with a
           wide range of front-end and back-end
-          <a href="#" className="link-underline mx-2">
-            ‎frameworks
-          </a>
+          <Link
+            smooth={true}
+            duration={500}
+            to="skills"
+            className="link-underline mx-2"
+            activeClass="active"
+          >
+            frameworks
+          </Link>
           . Also, being an artist in nature, I have a good sense of design,
           colors, usability and can build beautiful and modern interfaces that
           people love.
         </p>
         <p className="subtitle is-4">
-          When I'm not coding, i'm a cyclist and photographer and so far. keep{" "}
-          <a href="#" className="link-underline mx-1">
-            ‎scrolling
-          </a>{" "}
-          to know more about me
+          When I'm not coding, i'm a cyclist and photographer and so far. want
+          to know more about me? keep{" "}
+          <Link
+            smooth={true}
+            duration={500}
+            to="skills"
+            className="link-underline mx-2"
+            activeClass="active"
+          >
+            scrolling
+          </Link>
+          😀
         </p>
       </div>
     </div>
