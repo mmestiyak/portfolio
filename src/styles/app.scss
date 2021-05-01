@@ -4,6 +4,9 @@ body {
   font-size: 62.5% !important;
   background: #f8f6f0;
 }
+html {
+  scroll-behavior: smooth;
+}
 a {
   color: currentColor;
   text-decoration: none;

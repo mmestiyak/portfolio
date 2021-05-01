@@ -22,13 +22,25 @@
       height: 70%;
       padding: 10.5em 6em !important;
       &--1 {
-        background: #fe6192;
+        background: linear-gradient(
+          90deg,
+          hsla(247, 41%, 39%, 1) 0%,
+          hsla(247, 64%, 74%, 1) 100%
+        );
       }
       &--2 {
-        background: #443a8b;
+        background: linear-gradient(
+          270deg,
+          hsla(247, 41%, 39%, 1) 0%,
+          hsla(247, 64%, 74%, 1) 100%
+        );
       }
       &--3 {
-        background: #f44336;
+        background: linear-gradient(
+          90deg,
+          hsla(247, 41%, 39%, 1) 0%,
+          hsla(247, 64%, 74%, 1) 100%
+        );
       }
     }
   }

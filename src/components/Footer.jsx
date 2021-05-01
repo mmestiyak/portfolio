@@ -15,7 +15,7 @@ const Footer = () => {
           Do you have an interesting project that matches my skill set? Let's
           talk!
         </h3>
-        <a href="mailto:mmestiyak@gmail.com" className="subtitle">
+        <a href="mailto:mmestiyak@gmail.com" className="subtitle email">
           mmestiyak@gmail.com
         </a>
         <div className="social-links mt-4">

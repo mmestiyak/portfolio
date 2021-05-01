@@ -19,6 +19,7 @@
     filter: grayscale(33);
     transition: filter 0.6s ease-in-out;
     cursor: pointer;
+    border-radius: 50%;
     &:hover {
       filter: grayscale(0);
     }
