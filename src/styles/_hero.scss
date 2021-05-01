@@ -1,0 +1,26 @@
+.hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 4vmax;
+    font-family: "Dosis", sans-serif;
+    text-transform: capitalize;
+  }
+  h2:first-of-type {
+    font-size: 4.1vmax;
+  }
+  img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    filter: grayscale(33);
+    transition: filter 0.6s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      filter: grayscale(0);
+    }
+  }
+}
