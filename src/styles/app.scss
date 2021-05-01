@@ -1,11 +1,63 @@
 @import "../../node_modules/bulma/bulma.sass";
 body {
   color: #314043;
-  font-family: "Comfortaa", sans-serif;
-  font-size: 62.5%;
+  font-size: 62.5% !important;
   background: #f8f6f0;
-  min-height: 100vh;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+.title {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  letter-spacing: -0.4px;
+  font-weight: 700;
+  padding-bottom: 0.4em;
+  &::before {
+    margin-bottom: 0.5rem;
+    content: "";
+    display: block;
+    background-color: #314043;
+    width: 100%;
+    height: 0.4px;
+  }
+}
+.subtitle {
+  font-family: "Questrial", sans-serif;
+  line-height: 150%;
+  letter-spacing: 1px;
+}
+h3 {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  color: #314043;
+}
+
+.link-underline {
+  display: inline-block;
+  position: relative;
+  &:after {
+    content: "";
+    display: block;
+    background-color: #ffc600;
+    width: 98%;
+    border-radius: 49.2em;
+    height: 3px;
+    position: absolute;
+    bottom: 0.1em;
+    transition: width 0.25s linear;
+  }
+  &:hover::after {
+    width: 0%;
+  }
 }
 
 @import "./navbar";
 @import "./hero";
+@import "./about";
+@import "./skills";
+@import "./projects";
+@import "./footer";

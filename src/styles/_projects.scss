@@ -1,0 +1,35 @@
+.projects {
+  min-height: 90vh;
+  .title {
+    color: #443a8b;
+    &::before {
+      background: #443a8b;
+    }
+  }
+  .link-underline::after {
+    background: #443a8b;
+  }
+
+  .card {
+    width: 100%;
+    h3 {
+      color: #fff;
+    }
+    h2 {
+      color: #443a8b;
+    }
+    &-header {
+      height: 70%;
+      padding: 10.5em 6em !important;
+      &--1 {
+        background: #fe6192;
+      }
+      &--2 {
+        background: #443a8b;
+      }
+      &--3 {
+        background: #f44336;
+      }
+    }
+  }
+}

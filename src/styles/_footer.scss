@@ -1,0 +1,12 @@
+.footer {
+  background: transparent;
+  .social-links {
+    display: flex;
+    a {
+      font-size: 2rem;
+      &:not(:last-of-type) {
+        padding-right: 1em;
+      }
+    }
+  }
+}

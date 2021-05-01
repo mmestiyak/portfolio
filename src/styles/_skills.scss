@@ -1,0 +1,28 @@
+.skills {
+  min-height: 80vh;
+  .title {
+    color: #f44336;
+    &::before {
+      background: #f44336;
+    }
+  }
+  .link-underline::after {
+    background: #f44336;
+  }
+  ul {
+    display: flex;
+    font-size: 1.4rem;
+    align-items: center;
+    flex-wrap: wrap;
+
+    li {
+      font-family: Lato, Arial, Helvetica, sans-serif;
+      padding: 4px 11px;
+      background: #f44336;
+      border-radius: 0.2em;
+      color: #fff;
+      margin: 0.5rem 0.2rem;
+    }
+  }
+}
+// #FC4349

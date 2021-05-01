@@ -1,0 +1,12 @@
+.about {
+  min-height: 90vh;
+  .title {
+    color: #fe6192;
+    &::before {
+      background: #fe6192;
+    }
+  }
+  .link-underline::after {
+    background: #fe6192;
+  }
+}
