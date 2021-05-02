@@ -36,6 +36,7 @@ const Navbar = () => {
               skills
             </Link>
           </div>
+
           <div className="navbar-item text-gradient">
             <Link smooth={true} duration={1000} to="projects">
               Projects
@@ -45,6 +46,14 @@ const Navbar = () => {
             <Link smooth={true} duration={1500} to="contact">
               contact
             </Link>
+          </div>
+          <div className="navbar-item">
+            <a
+              className="resume"
+              href="https://github.com/mmestiyak/portfolio/raw/master/Meer_Estiyak_Resume.pdf"
+            >
+              resume
+            </a>
           </div>
         </div>
       </div>

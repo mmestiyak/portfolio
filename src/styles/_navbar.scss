@@ -16,6 +16,9 @@
       font-size: 1.5rem;
       text-transform: uppercase;
       font-weight: lighter;
+      &.resume {
+        border-bottom: 0.5px solid #fe6192;
+      }
     }
   }
 }
