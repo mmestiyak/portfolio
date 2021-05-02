@@ -41,7 +41,7 @@ const Blogs = () => {
             <a
               aria-disabled={blog.link ? false : true}
               target="_blank"
-              href={blog.link}
+              href={`${blog.link}`}
               title={`${blog.link ? "" : "will be available soon"}`}
               style={{ color: `${blog.link ? "curentColor" : "#bfbfbf"}` }}
             >
