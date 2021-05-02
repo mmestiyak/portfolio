@@ -27,29 +27,29 @@ const Navbar = () => {
           </a>
         </div>
         <div className={`navbar-menu ${isMobile && `is-active`}`}>
-          <div className="navbar-item text-gradient">
+          <div className="navbar-item  ">
             <Link smooth={true} duration={500} to="about">
               about
             </Link>
           </div>
-          <div className="navbar-item text-gradient">
+          <div className="navbar-item  ">
             <Link smooth={true} duration={700} to="skills">
               skills
             </Link>
           </div>
 
-          <div className="navbar-item text-gradient">
+          <div className="navbar-item  ">
             <Link smooth={true} duration={1000} to="projects">
               Projects
             </Link>
           </div>
 
-          <div className="navbar-item text-gradient">
+          <div className="navbar-item  ">
             <Link smooth={true} duration={1500} to="contact">
               contact
             </Link>
           </div>
-          <div className="navbar-item text-gradient">
+          <div className="navbar-item  ">
             <RouteLink to="/blogs">blogs</RouteLink>
           </div>
           <div className="navbar-item">
