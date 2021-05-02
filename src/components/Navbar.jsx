@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+import { Link as RouteLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -46,6 +47,14 @@ const Navbar = () => {
             <Link smooth={true} duration={1500} to="contact">
               contact
             </Link>
+          </div>
+          <div className="navbar-item text-gradient">
+            <Link smooth={true} duration={1500} to="contact">
+              contact
+            </Link>
+          </div>
+          <div className="navbar-item text-gradient">
+            <RouteLink to="/blogs">blogs</RouteLink>
           </div>
           <div className="navbar-item">
             <a

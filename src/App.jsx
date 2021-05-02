@@ -8,11 +8,12 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import "./styles/app.scss";
 import Footer from "./components/Footer";
+import Blogs from "./components/Blogs";
 
 const App = () => {
   return (
     <>
-      <Route path="/">
+      <Route exact path="/">
         <Navbar />
         <Hero />
         <About />
@@ -20,6 +21,9 @@ const App = () => {
         <Projects />
         <Contact />
         <Footer />
+      </Route>
+      <Route path="/blogs">
+        <Blogs />
       </Route>
     </>
   );

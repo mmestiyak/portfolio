@@ -1,0 +1,14 @@
+.blogs {
+  h3 {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  h2 {
+    cursor: pointer;
+    font-family: "Dosis", sans-serif;
+    &:first-of-type {
+      margin-top: 3rem;
+    }
+  }
+}
