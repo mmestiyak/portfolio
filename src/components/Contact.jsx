@@ -19,13 +19,25 @@ const Contact = () => {
           mmestiyak@gmail.com
         </a>
         <div className="social-links mt-4">
-          <a target="_blank" href="https://linkedin.com/in/mmestiyak">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://linkedin.com/in/mmestiyak"
+          >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a target="_blank" href="https://github.com/mmestiyak">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://github.com/mmestiyak"
+          >
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a target="_blank" href="https://twitter.com/mmestiyak">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://twitter.com/mmestiyak"
+          >
             <FontAwesomeIcon icon={faTwitter} />
           </a>
         </div>

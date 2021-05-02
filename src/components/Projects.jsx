@@ -23,6 +23,7 @@ const Projects = () => {
                   <div className="mt-5">
                     <a
                       target="_blank"
+                      rel="noreferrer"
                       href="https://github.com/mmestiyak/hudhud-riders"
                     >
                       <FontAwesomeIcon
@@ -33,6 +34,7 @@ const Projects = () => {
                     </a>
                     <a
                       target="_blank"
+                      rel="noreferrer"
                       href="https://hudhud-riders.netlify.app/"
                     >
                       <FontAwesomeIcon
@@ -57,6 +59,7 @@ const Projects = () => {
                   <div className="mt-5">
                     <a
                       target="_blank"
+                      rel="noreferrer"
                       href="https://github.com/mmestiyak/true-colors-front-end"
                     >
                       <FontAwesomeIcon
@@ -65,7 +68,11 @@ const Projects = () => {
                         icon={faGithub}
                       />
                     </a>
-                    <a target="_blank" href="https://true-colors.netlify.app/">
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://true-colors.netlify.app/"
+                    >
                       <FontAwesomeIcon
                         className="is-clickable"
                         style={{ fontSize: "2rem" }}

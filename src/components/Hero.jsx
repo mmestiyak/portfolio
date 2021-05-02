@@ -8,20 +8,19 @@ const Hero = () => {
         <figure>
           <img src={profilePicture} alt="" />
         </figure>
-        <h2 className="">
+        <h2>
           Hello I'm
           <Link
             smooth={true}
             duration={500}
             to="about"
             className="link-underline mx-2"
-            activeclassName="active"
           >
             Meer
           </Link>
           , A Front End Developer.
         </h2>
-        <h2 className="">I love HTML, CSS especially javaScript</h2>
+        <h2>I love HTML, CSS especially javaScript</h2>
       </div>
     </div>
   );

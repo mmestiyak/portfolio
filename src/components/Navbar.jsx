@@ -16,10 +16,10 @@ const Navbar = () => {
       <div className={`container`}>
         <div className="navbar-brand ">
           <a
+            rel="noreferrer"
             onClick={handleClick}
             role="button"
             className={`navbar-burger ${isMobile ? `is-active` : ""}`}
-            href="#"
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -54,6 +54,7 @@ const Navbar = () => {
           </div>
           <div className="navbar-item">
             <a
+              rel="noreferrer"
               className="resume"
               href="https://github.com/mmestiyak/portfolio/raw/master/Meer_Estiyak_Resume.pdf"
             >
