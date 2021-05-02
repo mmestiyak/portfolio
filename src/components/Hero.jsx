@@ -9,16 +9,16 @@ const Hero = () => {
           <img src={profilePicture} alt="" />
         </figure>
         <h2>
-          Hello I'm
+          Hi,
           <Link
             smooth={true}
             duration={500}
             to="about"
             className="link-underline mx-2"
           >
-            Meer
+            i'm
           </Link>
-          , A Front End Developer.
+          a web developer
         </h2>
         <h2>I love HTML, CSS especially javaScript</h2>
       </div>

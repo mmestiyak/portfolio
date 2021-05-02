@@ -1,16 +1,15 @@
 .hero {
-  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   h2 {
-    font-size: 4vmax;
+    font-size: 3vmax;
     font-family: "Dosis", sans-serif;
-    text-transform: capitalize;
+    text-transform: lowercase;
   }
   h2:first-of-type {
-    font-size: 4.1vmax;
+    font-size: 3vmax;
     margin-top: 2rem;
   }
   img {
@@ -35,9 +34,9 @@
 @media (max-width: 355px) {
   .hero {
     h2 {
-      font-size: 3.5vmax;
+      font-size: 2.5vmax;
       &:first-of-type {
-        font-size: 3.5vmax;
+        font-size: 2.5vmax;
         margin-top: 2rem;
       }
     }

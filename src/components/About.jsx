@@ -31,17 +31,17 @@ const About = () => {
           people love.
         </p>
         <p className="subtitle is-4">
-          When I'm not coding, i'm a cyclist and photographer and so far. want
-          to know more about me? keep{" "}
+          When I'm not coding, i'm a cyclist and photographer and so far. do you
+          have any tips & trics about cycling or photography? please
           <Link
             smooth={true}
-            duration={500}
-            to="skills"
+            duration={1500}
+            to="contact"
             className="link-underline mx-2"
           >
-            scrolling
+            tell
           </Link>
-          😀
+          me 😃
         </p>
       </div>
     </div>
