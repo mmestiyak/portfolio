@@ -43,11 +43,7 @@ const Navbar = () => {
               Projects
             </Link>
           </div>
-          <div className="navbar-item text-gradient">
-            <Link smooth={true} duration={1500} to="contact">
-              contact
-            </Link>
-          </div>
+
           <div className="navbar-item text-gradient">
             <Link smooth={true} duration={1500} to="contact">
               contact
