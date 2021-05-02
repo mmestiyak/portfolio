@@ -13,12 +13,12 @@ const Projects = () => {
         </h3>
         <div className="columns ">
           <div className="column is-4 is-flex ">
-            <div class="card ">
-              <header class="card-header card-header--1  is-shadowless   is-flex is-align-items-center is-justify-content-center">
+            <div className="card ">
+              <header className="card-header card-header--1  is-shadowless   is-flex is-align-items-center is-justify-content-center">
                 <h3 className="is-size-3 has-text-centered">HudHud Riders</h3>
               </header>
-              <div class="card-content ">
-                <div class="content">
+              <div className="card-content ">
+                <div className="content">
                   <h2>Ride Sharing App</h2>
                   <div className="mt-5">
                     <a
@@ -47,12 +47,12 @@ const Projects = () => {
             </div>
           </div>
           <div className="column is-4 is-flex ">
-            <div class="card ">
-              <header class="card-header card-header--2  is-shadowless   is-flex is-align-items-center is-justify-content-center">
+            <div className="card ">
+              <header className="card-header card-header--2  is-shadowless   is-flex is-align-items-center is-justify-content-center">
                 <h3 className="is-size-3 has-text-centered">True Colors</h3>
               </header>
-              <div class="card-content ">
-                <div class="content">
+              <div className="card-content ">
+                <div className="content">
                   <h2>Painting Agency Website</h2>
                   <div className="mt-5">
                     <a
@@ -78,12 +78,12 @@ const Projects = () => {
             </div>
           </div>
           <div className="column is-4 is-flex ">
-            <div class="card ">
-              <header class="card-header card-header--3  is-shadowless   is-flex is-align-items-center is-justify-content-center">
+            <div className="card ">
+              <header className="card-header card-header--3  is-shadowless   is-flex is-align-items-center is-justify-content-center">
                 <h3 className="is-size-3 has-text-centered">Meer's Bag</h3>
               </header>
-              <div class="card-content ">
-                <div class="content">
+              <div className="card-content ">
+                <div className="content">
                   <h2>E-comerce Landing Page</h2>
                   <div className="mt-5">
                     <a href="https://github.com/mmestiyak/meers-bag">

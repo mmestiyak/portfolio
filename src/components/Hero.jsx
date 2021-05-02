@@ -15,7 +15,7 @@ const Hero = () => {
             duration={500}
             to="about"
             className="link-underline mx-2"
-            activeClass="active"
+            activeclassName="active"
           >
             Meer
           </Link>

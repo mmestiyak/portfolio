@@ -38,15 +38,19 @@ const Blogs = () => {
         <h3 className="is-size-2">My Blogs</h3>
         {blogs.map((blog, index) => (
           <h2 className="is-size-3">
-            <a
-              aria-disabled={blog.link ? false : true}
-              target="_blank"
-              href={`${blog.link}`}
-              title={`${blog.link ? "" : "will be available soon"}`}
-              style={{ color: `${blog.link ? "curentColor" : "#bfbfbf"}` }}
-            >
-              {index + 1}. {blog.title}
-            </a>
+            <span title={blog.link ? "" : "will be avaiable soon"}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href={`${blog.link ? blog.link : ""}`}
+                style={{
+                  color: `${blog.link ? "curentColor" : "#bfbfbf"}`,
+                  pointerEvents: `${blog.link ? "all" : "none"}`,
+                }}
+              >
+                {index + 1}. {blog.title}
+              </a>
+            </span>
           </h2>
         ))}
       </div>
