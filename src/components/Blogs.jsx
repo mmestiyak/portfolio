@@ -37,7 +37,7 @@ const Blogs = () => {
         </h3>
         <h3 className="is-size-2">My Blogs</h3>
         {blogs.map((blog, index) => (
-          <h2 className="is-size-3">
+          <h2 key={index + new Date().getTime()} className="is-size-3">
             <span title={blog.link ? "" : "will be avaiable soon"}>
               <a
                 target="_blank"
