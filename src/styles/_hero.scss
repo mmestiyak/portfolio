@@ -11,6 +11,7 @@
   }
   h2:first-of-type {
     font-size: 4.1vmax;
+    margin-top: 2rem;
   }
   img {
     width: 10rem;
@@ -22,6 +23,18 @@
     border-radius: 50%;
     &:hover {
       filter: grayscale(0);
+    }
+  }
+}
+
+@media (max-width: 355px) {
+  .hero {
+    h2 {
+      font-size: 3.5vmax;
+      &:first-of-type {
+        font-size: 3.5vmax;
+        margin-top: 2rem;
+      }
     }
   }
 }

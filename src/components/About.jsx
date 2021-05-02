@@ -20,7 +20,6 @@ const About = () => {
             duration={500}
             to="skills"
             className="link-underline mx-2"
-            activeClass="active"
             onSetActive={() => {
               console.log("YAY");
             }}
@@ -39,7 +38,6 @@ const About = () => {
             duration={500}
             to="skills"
             className="link-underline mx-2"
-            activeClass="active"
           >
             scrolling
           </Link>

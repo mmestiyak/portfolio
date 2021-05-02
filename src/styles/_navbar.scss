@@ -19,3 +19,11 @@
     }
   }
 }
+@media (max-width: 1024px) {
+  .navbar {
+    .container {
+      border: none;
+      width: 100%;
+    }
+  }
+}
