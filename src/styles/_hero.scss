@@ -25,6 +25,11 @@
       filter: grayscale(0);
     }
   }
+  .link-underline {
+    &::after {
+      bottom: 0.2em;
+    }
+  }
 }
 
 @media (max-width: 355px) {
