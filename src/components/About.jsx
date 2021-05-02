@@ -21,6 +21,9 @@ const About = () => {
             to="skills"
             className="link-underline mx-2"
             activeClass="active"
+            onSetActive={() => {
+              console.log("YAY");
+            }}
           >
             frameworks
           </Link>

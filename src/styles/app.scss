@@ -1,11 +1,12 @@
 @import "../../node_modules/bulma/bulma.sass";
 body {
   color: #314043;
-  font-size: 62.5% !important;
   background: #f8f6f0;
+  font-size: 62.5% !important;
 }
 html {
   scroll-behavior: smooth;
+  background: transparent;
 }
 a {
   color: currentColor;
@@ -55,6 +56,12 @@ h3 {
   }
   &:hover::after {
     width: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
   }
 }
 

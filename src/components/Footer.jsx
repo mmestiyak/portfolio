@@ -8,8 +8,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="section">
-      <div className="container footer">
+    <div id="contact" className="section footer">
+      <div className="container ">
         <h2 className="title">Contact me</h2>
         <h3 className="subtitle is-4">
           Do you have an interesting project that matches my skill set? Let's
