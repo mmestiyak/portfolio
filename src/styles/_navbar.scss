@@ -10,7 +10,6 @@
   .navbar-menu {
     justify-content: center;
   }
-
   .navbar-item {
     a {
       font-size: 1.5rem;
@@ -26,8 +25,11 @@
   .navbar {
     .container {
       border: none;
-      width: 100%;
+      max-width: 100%;
       margin-top: 0;
+    }
+    .navbar-menu {
+      justify-content: flex-end;
     }
   }
 }

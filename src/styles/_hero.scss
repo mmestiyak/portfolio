@@ -4,13 +4,12 @@
   justify-content: center;
   align-items: center;
   h2 {
-    font-size: 3vmax;
+    font-size: 2.5rem;
     font-family: "Dosis", sans-serif;
     text-transform: lowercase;
   }
   h2:first-of-type {
-    font-size: 3vmax;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   img {
     width: 10rem;
@@ -31,14 +30,14 @@
   }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 423px) {
   .hero {
     h2 {
-      font-size: 2.5vmax;
-      &:first-of-type {
-        font-size: 2.5vmax;
-        margin-top: 2rem;
-      }
+      font-size: 1.8rem;
+    }
+    img {
+      width: 8rem;
+      height: 8rem;
     }
   }
 }
