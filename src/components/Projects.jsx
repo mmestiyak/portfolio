@@ -113,6 +113,16 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <h3 className="subtitle is-4 mt-5  ">
+          see more projects on
+          <a
+            href="https://github.com/mmestiyak"
+            target="_blank"
+            className="link-underline mx-1"
+          >
+            github
+          </a>
+        </h3>
       </div>
     </div>
   );
