@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { Link } from "react-scroll";
-import { Link as RouteLink } from "react-router-dom";
+import React, { useState } from 'react';
+import { Link } from 'react-scroll';
+import { Link as RouteLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -19,7 +19,7 @@ const Navbar = () => {
             rel="noreferrer"
             onClick={handleClick}
             role="button"
-            className={`navbar-burger ${isMobile ? `is-active` : ""}`}
+            className={`navbar-burger ${isMobile ? `is-active` : ''}`}
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -56,7 +56,7 @@ const Navbar = () => {
             <a
               rel="noreferrer"
               className="resume"
-              href="https://github.com/mmestiyak/portfolio/raw/master/Meer_Estiyak_Resume.pdf"
+              href="https://drive.google.com/uc?export=download&id=19j6smZjyw3ldfWdJC08IXhrNRdJzJQcy"
             >
               resume
             </a>
