@@ -9,12 +9,27 @@ const Blogs = () => {
       title: "Understanding Truthy Falsy in javaScript",
       description: ``,
       link:
-        "https://mmestiyak1.medium.com/understanding-truthy-falsy-in-javascript-75d25e20029b",
+        "https://mmestiyak.medium.com/understanding-truthy-falsy-in-javascript-75d25e20029b",
     },
     {
-      title: "Understanding 'this' keyword in javaScript",
+      title: "JavaScript features that confuses beginners",
       description: ``,
-      link: "",
+      link: "https://mmestiyak.medium.com/javascript-features-that-confuses-beginners-de12f9c78e22",
+    },
+    {
+      title: "React.js features that made it so popular and fun to work with",
+      description: ``,
+      link: "https://mmestiyak.medium.com/react-js-features-that-made-it-so-popular-and-fun-to-work-with-fefc517f8543",
+    },
+    {
+      title: "JavaScript ES6 Features that make your life easier",
+      description: ``,
+      link: "https://mmestiyak.medium.com/javascript-es6-features-that-make-your-life-easier-25c5c169833e",
+    },
+    {
+      title: "Functional Programming in JavaScript with map, filter, reduce",
+      description: ``,
+      link: "https://mmestiyak.medium.com/functional-programming-in-javascript-with-array-built-in-methods-676d2318115",
     },
     {
       title: "Understanding Prototypal Inheritance in javaScript",
